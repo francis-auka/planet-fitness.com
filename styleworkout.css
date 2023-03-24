@@ -1,0 +1,264 @@
+body {
+    margin: 0;
+    width: 100%;
+    background-image: linear-gradient(to right,
+    gray,
+    black);
+}
+.container1 {
+    background: url(images/mascular2.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    margin: 0;
+    width: 100%;
+    height: 80rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#container2 {
+    background-image: linear-gradient(to right,
+    gray,
+    black);
+    width: 100%;
+    margin-bottom: 10rem;
+}
+#container2 img {
+    background-color: gray;
+    max-width: 20rem;
+    float: left;
+    border: 0px solid transparent;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+.text-box h2 {
+    width: 100%;
+    color: greenyellow;
+    font-size: 5rem;
+}
+.text-box p {
+    width: 100%;
+    color: white;
+    font-size: larger;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+.navbox h1 {
+    color: greenyellow;
+    border-radius: 5px;
+}
+.navbox img {
+    background-color: transparent;
+    width: 84px;
+    height: 84px;
+    float: left;
+    margin-right: 15px;
+    border: 0px solid transparent;
+    border-radius: 30;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-top: 5rem;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 1rem 2rem;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover {
+    color: greenyellow;
+    transition: .3s;
+}
+span h1 {
+    color: greenyellow;
+    font-size: 100px;
+}
+.P1 {
+    color: white;
+    font-size: 3rem;
+    word-spacing: 10px;
+    margin-bottom: 40px;
+}
+.btn a {
+    font-size: large;
+    font-weight: bolder;
+    background-image: linear-gradient(to left,
+    black,
+    greenyellow);
+    border-radius: 40px;
+    color: white;
+    cursor: pointer;
+    border-color: transparent;
+    padding:2rem 3rem;
+    transition: 0.1s;
+}
+.btn a:hover {
+    font-size: small;
+}
+.popup {
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.popup-content {
+    height: 250px;
+    width: 500px;
+    background-color:gray;
+    box-shadow: 20px 20px 20px black;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+.pop-up {
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.pop-up-content {
+    height: 250px;
+    width: 500px;
+    background: linear-gradient(to left,
+    grey,
+    black);
+    box-shadow: 20px 20px 20px gray;
+    border: 2px solid black;
+    padding: 20px;
+    position: relative;
+    transition: 0.1s;
+}
+.pop-up .pop-up-content .press {
+    background-image: linear-gradient( to left,
+    black,
+    greenyellow);
+    font-size: 10px;
+    font-weight: 200px;
+    border-radius: 40px;
+}
+.shutdown {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    background-color: white;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+label {
+    font-size: 30px;
+    font-weight: 600;
+    color: black;
+}
+input {
+    margin: 20px auto;
+    display: block;
+    width: 50%;
+    padding: 8px;
+    border: 1px solid gray;
+}
+.close {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    background-color: white;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.button {
+    background-color: greenyellow;
+    padding: 1rem 2rem;
+    border-radius: 40px;
+    color: white;
+}
+
+
+
+.service-box {
+    width: 100%;
+    padding: 10px;
+    background-image: to right,
+    grey,
+    black;
+    margin: 100px auto;
+    margin-bottom: 50rem;
+}
+.service-box img {
+    background-color: gray;
+    max-width: 21rem;
+    float: left;
+    border: 0px solid transparent;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+       
+.service-box h2 {
+    font-size: 50px;
+    color: greenyellow;
+    text-decoration: underline;
+}
+.box {
+    width: 20rem;
+    height: 30rem;
+    float: left;
+    margin: 1rem 2rem;
+    transition: 0.1s; 
+}
+.box:hover{
+    transform: scale(1.1);
+}
+
+.icons {
+    width: 100%;
+    background-image: linear-gradient(to left,
+    black,
+    grey);
+    color: white;
+    position: relative;
+    display: grid;
+    justify-content: center;
+}
+.icons h3 {
+    font-size: 3rem;
+}
+.icons ul li {
+    list-style: none;
+    float: left;
+    margin-right: 2rem;
+}
+.icons img{
+    background-color: transparent;
+    width: 84px;
+    height: 84px;
+    display: inline-block;
+    border: 0px solid transparent;
+    border-radius: 20%;
+    margin-right: 5rem;
+}
+
